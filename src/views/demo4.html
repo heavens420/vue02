@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="radio" name="btn" id="close" class="btn" placeholder="nhffffffffffffffff"/>
+    <div class="box1">
+        <label for="window1" class="text">投票</label>
+        <input type="radio" name="btn" id="window1" class="btn" />
+        <div class="window">
+            <label for="close" class="fr"><img src="images/voting-close.png"/></label>
+            <div>
+                <p>感谢您参与到我们的投票活动，您的投票已成功！</p>
+                <p>请留下您的联系方式，我们会在活动结束时举办一个抽奖活动，z中奖信息会公布在官网上，敬请留意，谢谢合作！</p>
+                <form action="" method="post">
+                    您的姓名：
+                    <input type="text" name="username" /><br /> 您的电话：
+                    <input type="text" name="number" /><br />
+                    <input type="submit" value="提交" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .text {
+        position: absolute;
+        bottom: 0;
+        left: 109px;
+        color: #fff;
+        padding: 10px 20px 10px 20px;
+        background: #0000FF;
+        border-radius: 10px;
+    }
+    .window {
+        overflow: hidden;
+        position: fixed;
+        top: 30%;
+        left: 25%;
+        width: 0px;
+        height: 0px;
+        background: #c9cbcd;
+        z-index: 111;
+    }
+    .btn{
+        display: flow;
+    }
+    .btn:checked+ .window {
+        width: 550px;
+        height: 376px;
+    }
+</style>
+</html>

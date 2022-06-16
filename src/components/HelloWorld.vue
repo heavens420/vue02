@@ -1,6 +1,6 @@
 <template>
   <div class="hello" style="margin-top: 20px">
-
+    <h2>标题2222222222222</h2>
 <!--    给出默认值-->
 <!--    绑定list 父组件通过slot-scope获取子组件的值-->
     <slot name="first" :data = list><h4>First slot</h4></slot>

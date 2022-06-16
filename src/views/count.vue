@@ -33,7 +33,7 @@
       <p slot="third"></p>
     </HelloWorld>
 
-    <h4>{{fcon}}</h4>
+    <h4>123{{fcon}}</h4>
     <h4 id="life">{{lifeVale}}</h4>
 
     <ShowMoreOrLess ref="smol">

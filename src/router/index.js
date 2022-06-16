@@ -37,6 +37,21 @@ const routes = [
     path: '/table',
     name: 'table',
     component: () => import('../views/table.vue')
+  },
+  {
+    path: '/table2',
+    name: 'table2',
+    component: () => import('../views/table2')
+  },
+  {
+    path: '/echarts',
+    name: 'echarts',
+    component: () => import('../views/MyEcharts')
+  },
+  {
+    path: '/demo1',
+    name: 'demo1',
+    component: () => import('../views/Demo1')
   }
 ]
 
